@@ -1,0 +1,45 @@
+@media screen and (max-width: 800px){
+       
+    main{
+        width: 100%;
+        padding: 2% 2%;
+        height: 100%;
+    }
+    
+    .result{
+        width: 100%;
+    }
+
+    .summary{
+        width: 100%;
+        position: static;
+        transform: translate(0,0);
+        padding: 0 2%;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    .summary ul li{
+        width: 100%;
+        padding: 0 2%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .summary a{
+        margin: 0 auto;
+    }
+
+    .attribution{
+        position: relative;
+        top: 1100px;
+        padding: 2% 0;
+}
+
+}
+
+@media screen and (max-height: 565px){
+    .attribution{
+        display: none;
+    }
+}
